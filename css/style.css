@@ -1,0 +1,277 @@
+@import url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap);
+body {
+  font-family: "Titillium Web";
+  background-color: black;
+  /*background-image: url('../img/background.png');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center; }
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px; }
+
+h2 {
+  color: white;
+  font-family: "Arial Black";
+  font-size: 27px;
+  margin-bottom: 30px; }
+
+p {
+  font-family: 'Comic Sans';
+  font-size: 24px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 0px; }
+
+b {
+  font-family: "Arial Black";
+  font-size: 24px;
+  color: blue; }
+
+a:hover {
+  text-decoration: none; }
+
+section {
+  padding: 100px 0 0 0; }
+
+ul {
+  list-style: none; }
+
+/* CLASES */
+.fontWhite {
+  color: white; }
+
+.logo {
+  min-width: 60px;
+  max-width: 80px; }
+
+.logoWhatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999; }
+
+.margenSuperior {
+  margin-top: 60px; }
+
+.margenSuperior-xs {
+  margin-top: 30px; }
+
+.fondoGris {
+  background-color: #999999; }
+
+.justificar {
+  justify-content: center; }
+
+/* BOTONES */
+.btn {
+  font-size: 16px;
+  padding: 15px 25px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block; }
+
+.btn__blanco {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid aliceblue; }
+
+.btn__negro {
+  background-color: #1a1a1a;
+  color: aliceblue;
+  border: 2px solid #1a1a1a; }
+
+.full-width {
+  width: 100%; }
+
+.bgNegro {
+  background-color: #1a1a1a; }
+
+.bordeContacto {
+  border: 7px solid white; }
+
+/* NAVEGADOR */
+.navBar {
+  background-color: white;
+  box-shadow: 0 2px 4px black 0, 0, 0, 0.5;
+  min-height: 100px; }
+
+.nav-link {
+  color: #1a1a1a; }
+
+.nav-link:hover {
+  color: #1a1a1a; }
+
+#imgPrincipal {
+  background-image: url("../img/bloomsec.jpg");
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: white;
+  max-width: auto;
+  min-height: 600px; }
+
+#imgPrincipal p {
+  color: white; }
+
+.centrarContenido, .bordeContacto {
+  max-width: auto;
+  text-align: center;
+  align-items: center; }
+
+.galeria-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px; }
+
+.galeria-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s; }
+
+.galeria-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.galeria-detalles {
+  position: absolute;
+  bottom: 25px;
+  left: 25px; }
+
+.galeria-detalles a h2, .galeria-detalles a p {
+  color: white; }
+
+.galeria-detalles h2 {
+  margin-bottom: 0px; }
+
+.precios-container {
+  margin: 15px 0px; }
+
+.plan {
+  padding: 50px 80px;
+  border-radius: 2px;
+  min-width: 450px; }
+
+.plan h2 {
+  font-size: 27px;
+  font-weight: 600; }
+
+.plan span {
+  font-size: 20px; }
+
+.plan ul {
+  list-style-type: square; }
+
+.paddingSect {
+  padding: 0px 0px; }
+
+/*ANIMACION*/
+#animacionBloom {
+  width: 180px;
+  height: 180px;
+  padding: 0px 0px;
+  animation-name: animacionlogo;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative; }
+
+@keyframes animacionlogo {
+  0% {
+    left: 0px;
+    top: 0px; }
+  10% {
+    left: 100px;
+    top: 0px; }
+  20% {
+    left: 200px;
+    top: 0px; }
+  30% {
+    left: 300px;
+    top: 0px; }
+  40% {
+    left: 400px;
+    top: 0px; }
+  50% {
+    left: 500px;
+    top: 0px; }
+  60% {
+    left: 600px;
+    top: 0px; }
+  70% {
+    left: 700px;
+    top: 0px; }
+  80% {
+    left: 800px;
+    top: 0px; }
+  90% {
+    left: 900px;
+    top: 0px; }
+  95% {
+    left: 950px;
+    top: 0px; }
+  100% {
+    left: 1095px;
+    top: 0px; } }
+
+/* FOR*/
+.plan1 {
+  background-color: white;
+  border: 2px solid #1a1a1a; }
+
+.plan2 {
+  background-color: #999999;
+  color: aliceblue; }
+
+.plan3 {
+  background-color: #1a1a1a;
+  color: aliceblue;
+  border: 2px solid #1a1a1a; }
+
+#footer {
+  padding: 80px 0px;
+  text-align: center;
+  color: aliceblue; }
+
+#footer a {
+  color: white; }
+
+#footer a:hover {
+  color: white; }
+
+#footer .list-inline .list-inline-item {
+  padding: 15px 15x; }
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal; }
+  .plan {
+    min-width: unset;
+    padding: 40px; }
+  .footer-menu {
+    display: block !important;
+    padding: 20px 0px !important;
+    font-size: 20px; }
+  @keyframes animacionlogo {
+    0% {
+      left: 0px;
+      top: 0px; }
+    50% {
+      left: 100px;
+      top: 0px; }
+    100% {
+      left: 200px;
+      top: 0px; } }
+  iframe {
+    max-width: 100%;
+    height: 400px; } }
